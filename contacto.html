@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Ecomerce-contacto</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Poppins:wght@400;500;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/Personal/css/stile.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="nombre-sitio"> Tienda <span>muebles</span> </h1>
+    </header>
+
+    <div class="contenedor-navegacion">
+        <nav class="nav-principal contenedor">
+            <a href="/Personal/index.html">Inicio</a>
+            <a href="/Personal/nosotros.html">Nosotros</a>
+            <a href="/Personal/tienda.html">Tienda</a>
+            <a href="/Personal/blog.html">Blog</a>
+            <a href="/Personal/galerias.html">Galeria</a>
+            <a href="/Personal/contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+
+
+
+
+
+    <main class="contenido-principal contenedor">
+
+        <H2 class="text-center">Contacto</H2>
+
+        <form class="formulario">
+
+            <fieldset>
+        
+                <legend>Tus datos</legend>
+            <div class="campo">
+                <label for="nombre"> Nombre</label>
+                <input id="nombre" type="text" placeholder="Coloca tu nombre" required>
+            </div>
+            <div class="campo">
+                <label for="nombre"> Asunto</label>
+                <input id="nombre" type="text" placeholder="Tu Asunto" required>
+            </div>
+
+            <div class="campo">
+                <label for="nombre">Telefono</label>
+                <input id="email" type="email" placeholder="Tu email" required>
+            </div>
+
+            <div class="campo">
+                <label for="nombre">Telefono</label>
+                <input id="tel" type="tel" placeholder="Tu Telefono" required>
+            </div>
+
+            <div class="campo">
+                <label for="Campo">Mensaje</label>
+                <Textarea rows="10" cols="20"></Textarea>
+            </div>
+
+            </fieldset>
+        
+            <fieldset>
+                <legend>Pais</legend>
+                <label for="Pais">Pais</label>
+                <select name="" id="Pais">
+                    <option value="">--seleccione--</option>
+                  <option value="MX">Mexico</option>
+                  <option value="CO">colombia</option>
+                  <option value="">Ecuador</option>
+                  <option value="">Panama</option>
+                  <option value="">Peru</option>
+                  <option value="">Argentina</option>
+                  <option value="">Uruguay</option>
+                  <option value="">Republica dominicana</option>
+                  <option value="">Brasil</option>
+
+                </select>
+
+                <div>
+
+                </div>
+        
+            </fieldset>
+        
+            <fieldset>
+                <legend>Información extra</legend>
+                <Div>
+                    <Label for="cliente">Cliente</Label>
+                    <input id="cliente" type="radio" name="tipo" value="cliente">
+                </Div>
+
+                <Div>
+                    <Label for="proveedor">Proveedor</Label>
+                    <input id="proveedor" type="radio" name="tipo" value="proveedor">
+                </Div>
+
+                <div>
+                    <label for="Categoria">Categoria de interés</label>
+                    <input list="categorias" name="categorias">
+                    <datalist id="categorias">
+                     <option value="Cocina">    
+                     <option value="Recamaras">
+                     <option value="Baños">  
+                     <option value="Televisor">     
+                     <option value="exterior">                   
+                    </datalist>
+                </div>
+
+        
+            </fieldset>
+        <input type="submit" value="Enviar formulario">
+
+        </form>
+
+
+
+
+
+    </main>
+
+
+
+    <footer class="site-footer">
+
+        <div class="grid-footer contenedor">
+
+            <div>
+                <h3>Categoria</h3>
+
+                <nav class="footer-menu">
+                    <a href="https://linadigitalexpert.com">Cocina</a>
+                    <a href="https://linadigitalexpert.com">Oficina</a>
+                    <a href="https://linadigitalexpert.com">Jardin</a>
+                    <a href="https://linadigitalexpert.com">Cocheras</a>
+                    <a href="https://linadigitalexpert.com">Jardines</a>
+                </nav>
+
+            </div>
+            <div>
+                <h3>Sobre Nosotros</h3>
+
+                <nav class="footer-menu">
+                    <a href="https://linadigitalexpert.com">Nuestra historia</a>
+                    <a href="https://linadigitalexpert.com">mision y valores</a>
+                    <a href="https://linadigitalexpert.com">Carreras</a>
+                    <a href="https://linadigitalexpert.com">Politicas de privacidad</a>
+                    <a href="https://linadigitalexpert.com">Terminos del servicio</a>
+                </nav>
+            </div>
+            <div>
+                <nav class="footer-menu">
+                    <h3>Soporte</h3>
+                    <a href="https://linadigitalexpert.com">Preguntas frecuentes</a>
+                    <a href="https://linadigitalexpert.com">Ayuda en linea</a>
+                    <a href="https://linadigitalexpert.com">Confianza y seguridad</a>
+                </nav>
+
+            </div>
+        </div>
+
+        <p class="copy"> Todos los derechos reservados - Tienda de mueble</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
